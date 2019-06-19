@@ -2,11 +2,13 @@
 layout: default
 ---
 
-<div class="home">
+<div class="home o-row-flex">
   {% for project in site.websites %}
-    <img src="{{site.baseurl}}/assets/images/{{project.thumb}}" alt="">
+  <div class="c-card">
+    <img src="{{site.baseurl}}/assets/images/{{project.thumb}}" alt="{{project.alt}}">
     <h2>{{ project.project_title }} </h2>
     <h3>{{ project.technologies }}</h3>
     <p>{{ project.content}}</p>
+  </div>
   {% endfor %}
 </div>
