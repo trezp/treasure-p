@@ -22,7 +22,7 @@ url: "trezp.github.io" # the base hostname & protocol for your site, e.g. http:/
 twitter_username: treasureporth
 github_username:  trezp
 collections: 
-  - projects
+  - websites
 
 # Build settings
 markdown: kramdown
